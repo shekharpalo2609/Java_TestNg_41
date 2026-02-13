@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Amazon Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="amazon_10Scenarios.TC_07">
+        <methods>
+          <include name="selectMango"/>
+          <include name="launchAmazon"/>
+          <include name="closeAmazon"/>
+        </methods>
+      </class> <!-- amazon_10Scenarios.TC_07 -->
+    </classes>
+  </test> <!-- Test on Firefox(failed) -->
+</suite> <!-- Failed suite [Amazon Suite] -->
