@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assertDemo.A02_AssertAmazon">
+      <class name="javascriptExecutor.JavaScriptExecutor">
         <methods>
-          <include name="testAssert"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- assertDemo.A02_AssertAmazon -->
+      </class> <!-- javascriptExecutor.JavaScriptExecutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
